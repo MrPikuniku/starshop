@@ -1,5 +1,8 @@
 
 
+{% extends 'base.html.twig' %}
+{% block body %}
+{% block title %} {{ parent() }} Starshop {% endblock %}
 <h1><strong>Hello World!</strong></h1>  
 
 <div>
@@ -36,7 +39,7 @@
         </tr>
     </table>
 </div>
-
+{% endblock %}
 
 
 
